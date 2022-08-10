@@ -1,0 +1,49 @@
+body,
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(80, 80, 80);
+}
+.container {
+  border-radius: 10%;
+  background-color: rgb(57, 57, 57);
+  padding: 0.5em;
+  width: 18em;
+}
+form {
+  background-color: rgb(255, 140, 0);
+  border-radius: 10%;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+label {
+  padding: 0.5em;
+  font-weight: 600;
+}
+p {
+  padding: 0.5em;
+  font-weight: 600;
+  margin: 0px;
+  text-align: center;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  text-decoration: underline;
+  padding-bottom: 0.5em;
+}
